@@ -1,10 +1,7 @@
 import streamlit as st
 import pandas as pd
-import plotly.express as px
-
 
 st.set_page_config(page_title="Logistics Vendor Governance", layout="wide", page_icon="🚢")
-
 
 METRICS = [
     "Accuracy", 
@@ -13,7 +10,6 @@ METRICS = [
     "Cost/Rates", 
     "Credit Facility"
 ]
-
 
 page_bg_img = '''
 <style>
